@@ -6,7 +6,7 @@ function App() {
       Jodar:
       <h1>Будем делать to do list!</h1>
       Baki:
-      <h1>Salam!</h1>
+      <h1>Salam Aleikum!</h1>
     </div>
   );
 }
