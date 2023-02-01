@@ -1,5 +1,10 @@
-main{
-    height: 446px;
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  position: relative;
+  min-height: 100%;
 }
 .home__inner{
     text-align: center;

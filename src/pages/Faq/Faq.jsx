@@ -12,7 +12,7 @@ const Faq = () => {
             <div className="container">
                 <h2>Информация о проекте</h2>
                 {/* Жоодар */}
-                <img src={jodar} alt='Nimatov Joodar' width='25 px'/>
+                <a href="https://www.instagram.com/wilxlln/" ><img src={jodar} alt='Jodar' width='25 px'/></a>
                 <h4>Ниматов Жоодарбек (teamLead)</h4>
                 <p>Работал над..</p>
                 {/* Олегсандер */}
