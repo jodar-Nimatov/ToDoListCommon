@@ -1,0 +1,13 @@
+.footer{
+    background-color: aliceblue;
+}
+.footer__inner{
+    display: flex;
+}
+.footer__list{
+    flex-wrap: wrap;
+    text-align: left;
+}
+.footer__item{
+    padding-bottom: 5.3px;
+}
