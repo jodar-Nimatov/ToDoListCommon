@@ -51,6 +51,7 @@ const Home = () => {
               }
             </ul>
           </div>
+          <p>{todos.length}</p>
         </div>
       </main>
     </div>
