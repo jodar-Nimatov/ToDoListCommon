@@ -1,25 +1,36 @@
 import React, { useState } from 'react'
-// import { useDispatch, useSelector } from 'react-redux'
-import TodoList from './TodoList';
 
-const TodoForm = () => {
-    // const [text, setText] = useState('')
 
-    // Будем делать с использованием redux!
-    //const dispatch = useDispatch
+const TodoForm = ({addToDo}) => {
+
+    const [userInput, setUserInput] = useState('')
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        addToDo(userInput)
+        setUserInput('')
+    }
+
+    const handleChange = (e) => {
+        setUserInput(e.currentTarget.value)
+    }
+
+    const handleKeyPress = (e) => {
+        if(e.key === 'Enter'){
+            handleSubmit(e)
+        }
+    }
 
     return (
-        <form onSubmit={(e) => {
-            // if(text.trim().length){
-            //     setText('')
-            //     e.preventDefault()
-            // }else{
-            //     e.preventDefault()
-            // }
-        }}>
-            <input value={text} onChange={(e)=>setText(e.target.value)} type="text"/>
+        <form onSubmit={handleSubmit}>
+            <input 
+            type="text" 
+            value={userInput}
+            onChange={handleChange}
+            onKeyDown={handleKeyPress}
+            placeholder="Введите задачу..."
+            />
             <button>Add</button>
-            <TodoList/>
         </form>
     )
 }
