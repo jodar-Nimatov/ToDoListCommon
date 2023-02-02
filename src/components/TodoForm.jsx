@@ -2,19 +2,15 @@ import React, { useState } from 'react'
 
 
 const TodoForm = ({addToDo}) => {
-
     const [userInput, setUserInput] = useState('')
-
     const handleSubmit = (e) => {
         e.preventDefault()
         addToDo(userInput)
         setUserInput('')
     }
-
     const handleChange = (e) => {
         setUserInput(e.currentTarget.value)
     }
-
     const handleKeyPress = (e) => {
         if(e.key === 'Enter'){
             handleSubmit(e)
