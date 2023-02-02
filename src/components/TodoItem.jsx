@@ -1,7 +1,6 @@
 import React from 'react'
 import '../css/todoitem.css'
 
-
 const TodoItem = ({todo, toggleToDo, removeTodo}) => {
   return (
     <li className='todo__item' key={todo.id}>

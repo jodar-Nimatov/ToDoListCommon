@@ -6,6 +6,7 @@
     width: 100%;
 }
 .footer__inner{
+    gap: 30px;
     display: flex;
 }
 .footer__list{
