@@ -23,10 +23,12 @@ const Counter = () => {
         <div className="counter__block">
             <div className='container'>
                 <div className="counter__inner">
-                    <h1>{count}</h1>
-                    <button onClick={increment}>+</button>
-                    <button onClick={decrement}>-</button>
-                    <button onClick={reset}>reset</button>
+                    <h1 className='counter__title'>{count}</h1>
+                    <div className="counter__btns">
+                        <button className='counter__btn' onClick={increment}>+</button>
+                        <button className='counter__btn' onClick={decrement}>-</button>
+                        <button className='counter__btn' onClick={reset}>reset</button>
+                    </div>
                 </div>
             </div>
         </div>
