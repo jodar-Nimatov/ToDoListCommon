@@ -27,13 +27,12 @@ const Home = () => {
             todos.map(todo => {
                 return (
                   <div className='todoshka'>
-                    <li className='todo__item' key={todo.id}>{todo.text}</li>
+                    <li contentEditable={true} className='todo__item' key={todo.id}>{todo.text} <input className='chbx' type="checkbox" /></li>
                     <div className="knopki">
                       <button className='del'>delete</button>
                       <button className='pen'>🖊️</button>
                     </div>
                   </div>
-                
                 )
             })
             }

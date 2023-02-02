@@ -35,9 +35,15 @@ body {
   height: 21.3px;
 }
 .todo__item{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 350.77px;
   padding-left: 4.4px;
-  background-color:azure;
+  background-color: azure;
+  align-items: center;
   margin-bottom: 13px;
+}
+.chbx{
+  margin-top: 4.5px;
 }
 .todo__list{
   margin: 0 auto;
@@ -45,6 +51,6 @@ body {
   background-color: rgb(241, 241, 241);
   overflow: auto;
   line-break: anywhere;
-  max-width: 330px;
+  max-width: 430px;
   height: 353.30px;
 }
