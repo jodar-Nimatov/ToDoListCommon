@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 html,
 body {
   height: 100%;
@@ -6,7 +11,21 @@ body {
   position: relative;
   min-height: 100%;
 }
+.todo__form{
+  border-radius: 4px;
+  max-width: fit-content;
+  margin: 10.3px auto;
+}
 .home__inner{
-    text-align: center;
-    justify-content: center;
+  text-align: center;
+  justify-content: center;
+}
+.todo__list{
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(241, 241, 241);
+  overflow: auto;
+  line-break: anywhere;
+  max-width: 330px;
+  height: 353.30px;
 }
