@@ -23,7 +23,8 @@ body {
 .home__inner{
   text-align: center;
   justify-content: center;
-}
+} 
+/*
 .todoshka{
   justify-content: space-between;
   display: flex;
@@ -53,4 +54,4 @@ body {
   line-break: anywhere;
   max-width: 430px;
   height: 353.30px;
-}
+} */
