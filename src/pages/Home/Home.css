@@ -5,7 +5,11 @@
 }
 html,
 body {
+  font-family: 'Teko';
   height: 100%;
+  background: #833ab4; 
+  background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+  background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
 }
 .wrapper {
   position: relative;
@@ -20,9 +24,24 @@ body {
   text-align: center;
   justify-content: center;
 }
+.todoshka{
+  justify-content: space-between;
+  display: flex;
+}
+.del{
+  height: 19px;
+}
+.pen{
+  height: 21.3px;
+}
+.todo__item{
+  padding-left: 4.4px;
+  background-color:azure;
+  margin-bottom: 13px;
+}
 .todo__list{
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   background-color: rgb(241, 241, 241);
   overflow: auto;
   line-break: anywhere;
