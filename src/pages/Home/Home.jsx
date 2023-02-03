@@ -19,19 +19,19 @@ const Home = () => {
               setToDos([...todos, {text}])
             }
           }}>
-            <input type="text" value={text} onChange={e=>setText(e.target.value)} />
-            <button>Add</button>
+            <input className='main-inp' placeholder='Add your todo' type="text" value={text} onChange={e=>setText(e.target.value)} />
+            <button className='main-btn'>➕</button>
           </form>
           <ul className='todo__list'>
             {
             todos.map(todo => {
                 return (
                   <div className='todoshka'>
-                    <li contentEditable={true} className='todo__item' key={todo.id}>{todo.text} <input className='chbx' type="checkbox" /></li>
-                    <div className="knopki">
-                      <button className='del'>delete</button>
-                      <button className='pen'>🖊️</button>
-                    </div>
+                    <li contentEditable={true} className='todo__item' key={todo.id}><input className='chbx' type="checkbox"/>{todo.text}</li>
+                      <div className="knopki">
+                        <button className='pen'>🖊️</button>
+                        <button className='del'>DELETE</button>
+                     </div>
                   </div>
                 )
             })
