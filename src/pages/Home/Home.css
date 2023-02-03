@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: 'Teko';
+  height: 100%;
+  background: #833ab4; 
+  background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+  background: linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+}
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+.todo__form{
+  border-radius: 4px;
+  max-width: fit-content;
+  margin: 10.3px auto;
+}
+.home__inner{
+  text-align: center;
+  justify-content: center;
+}

@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.counter__inner{
+    justify-content: space-between;
+    text-align: center;
+}
+.counter__title{
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 130px;
+}
+.counter__btns{
+    max-width: 300px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.counter__btn:hover{
+    box-shadow: 3px 3px 5px rgb(114, 114, 114);
+}
+.counter__btn{
+    cursor: pointer;
+    height: 30px;
+    color: aliceblue;
+    border-radius: 7px;
+    background-color: black;
+    width: 65px;
+}

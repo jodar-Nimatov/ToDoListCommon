@@ -1,0 +1,18 @@
+.footer{
+    background-color: aliceblue;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer__inner{
+    gap: 30px;
+    display: flex;
+}
+.footer__list{
+    flex-wrap: wrap;
+    text-align: left;
+}
+.footer__item{
+    padding-bottom: 5.3px;
+}
