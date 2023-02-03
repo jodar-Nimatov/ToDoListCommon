@@ -14,7 +14,7 @@ const Faq = () => {
                 {/* Жоодар */}
                 <a href="https://www.instagram.com/wilxlln/" ><img src={jodar} alt='Jodar' width='25 px'/></a>
                 <h4>Ниматов Жоодарбек (teamLead)</h4>
-                <p>Работал над..</p>
+                <p>Работал над логикой.</p>
                 {/* Олегсандер */}
                 <img src={oleg} alt='Krohmal Oleg' width='25px'/>
                 <h4>Крохмаль Олег</h4>
