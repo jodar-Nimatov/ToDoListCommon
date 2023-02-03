@@ -1,5 +1,6 @@
 header{
-    background-color: aliceblue;
+    background: rgba(0, 0, 0, 0);
+    border-bottom: 1px blue;
 }
 .header__logo{
     cursor: pointer;

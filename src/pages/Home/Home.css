@@ -24,3 +24,65 @@ body {
   text-align: center;
   justify-content: center;
 }
+
+.main-inp{
+  padding: 5px;
+  margin-right: 3px;
+}
+
+.main-btn {
+  padding: 3px 8px;
+  padding-bottom: 5px;
+  border: none;
+  height: 28px;
+  cursor: pointer;
+}
+
+.todoshka{
+  display: flex;
+  border: 1px solid rgb(223, 223, 223);
+  margin-bottom: 5px;
+
+}
+.del{
+  height: 32px;
+  padding: 0 3px 0 3px;
+  border: 0;
+  border-radius: 2px;
+  background-color: rgb(218, 61, 61);
+  color: white;
+  cursor: pointer;
+}
+
+.pen{
+  height: 29.3px;
+  margin-right: 1.5px;
+  border: 0 solid rgb(112, 179, 201);
+  cursor: pointer;
+}
+
+.todo__item{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 350.77px;
+  padding-left: 4.4px;
+  background-color: lightgray;
+  align-items: center;
+  padding-bottom: 7px;
+}
+:focus {
+  outline-color: gray;
+}
+
+.chbx{
+  margin: 6px 12px 0 0;
+}
+.todo__list{
+  margin: 0 auto;
+  text-align: left;
+  background-color: rgb(241, 241, 241);
+  overflow: auto;
+  line-break: anywhere;
+  max-width: 430px;
+  height: 353.30px;
+  border-radius: 3px;
+}
